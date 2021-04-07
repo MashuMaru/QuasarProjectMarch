@@ -1,11 +1,11 @@
 <template>
-  <div class="fullscreen bg-blue text-white text-center q-pa-md flex flex-center">
+  <div class="fullscreen bg-green text-white text-center q-pa-md flex flex-center">
     <div>
       <div style="font-size: 30vh">
         404
       </div>
 
-      <div class="text-h2" style="opacity:.4">
+      <div class="text-h2">
         Oops. Nothing here...
       </div>
 
@@ -27,3 +27,9 @@ export default {
   name: 'Error404'
 }
 </script>
+
+<style scoped>
+.text-h2 {
+  opacity: 0.4;
+}
+</style>
